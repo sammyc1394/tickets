@@ -9,10 +9,14 @@ public class OutPut {
 	}
 	
 	public void printEntryMenu() {
+		System.out.printf("***폴리랜드에 오신것을 환영합니다. \n");
 		System.out.printf("*******************************\n");
-		System.out.printf("폴리랜드에 오신것을 환영합니다. \n");
-		System.out.printf("\n");
+		System.out.printf("      아동    청소년   성인   노약자\n");
+		System.out.printf("주간  44000   47000   56000   44000\n");
+		System.out.printf("야간  37000   40000   46000   37000\n");
 		System.out.printf("*******************************\n");
+		System.out.printf("장애인 우대는 40%, 국가유공자 우대는 50%, 다자녀 우대는 20%, 임산부 우대는 15%입니다.\n");
+		System.out.printf("모든 우대는 그룹 당 한장으로 제한됩니다.\n");
 	}
 	
 	public void typeAgain() {
